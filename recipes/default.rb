@@ -4,8 +4,4 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-require 'aws-sdk'
-
-
-
-Aws.config[:region] = aws_region()
+include_recipe 'disks'
